@@ -31,7 +31,7 @@ Singapore’s re-export hub connects producers and buyers across Asia, Europe, a
 - OLS regression (price sensitivity)
 
 
-## 🚀 Future Work
+## Future Work
 
 - PCA dimensionality analysis  
 - volatility clustering  
