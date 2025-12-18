@@ -1,1 +1,5 @@
-
+The dataset used in this project was a merged dataset named as 'reexport_analysis_cleaned.csv'
+The orginal datasources are:
+1. Pink Sheet from World Bank Group 
+2. Singapore's Re-export Values from SingStat 
+All 3 datasets have been uploded in the file 
