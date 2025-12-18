@@ -1,32 +1,38 @@
-# re-export-analysis
-A statistical analysis of sector re-export patterns under disruptions in Singapore
+# Re-export Analysis: Commodity Shocks & Sector Volatility in Singapore
 
-Singapore's re-export hub links producers and buyers across Asia, Europe and the Middle East. 
+Singapore’s re-export hub connects producers and buyers across Asia, Europe, and the Middle East. This project investigates whether Singapore’s re-export sectors buffer or amplify global commodity price shocks.
 
-This code tests whether the hub buffers or amplifies global commodity price shocks, using 2016–present monthly data for petroleum, electronics and machinery.
 
-Research Questions
+## Research Questions
 
-AQ1: How do sector-level re-export values shift relative to pre-disruption baselines?
+**RQ1:** How do sector-level re-export values shift relative to pre-disruption baselines?  
+**RQ2:** Do re-export growth rates display higher or lower volatility than benchmark commodity prices during disruptions?
 
-AQ2: Do re-export growth rates display higher or lower volatility than composite benchmark prices during disruptions?
 
-Disruption Windows
+## Disruption Windows
 
-COVID-19: 2020-01 to 2023-05
+- **COVID-19:** 2020-01 to 2023-05  
+- **Russia–Ukraine War:** 2022-02 onward  
+- **Red Sea Crisis:** 2023-10 onward  
 
-Russia-Ukraine War: 2022-02 onwards
 
-Red Sea Crisis: 2023-10 onwards
+## Sector Scope
 
-Statistical Methods
+- Petroleum
+- Electronics
+- Machinery
 
-This analysis employs frequentist statistical methods:
 
-Descriptive Statistics: Mean, standard deviation, volatility ratios
+## Statistical Methods
 
-Welch t-test: Compare baseline vs disruption period means
+- Descriptive statistics (mean, std dev, volatility ratios)
+- Welch t-test (baseline vs disruption)
+- ANOVA + Tukey HSD
+- OLS regression (price sensitivity)
 
-ANOVA & Tukey HSD: Test equality of means across disruption phases
 
-Multiple Linear Regression (OLS): Quantify price sensitivity
+## 🚀 Future Work
+
+- PCA dimensionality analysis  
+- volatility clustering  
+- forecasting models
